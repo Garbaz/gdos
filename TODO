@@ -1,0 +1,5 @@
+TODO:
+- Count sent bytes
+- Support UTP
+- Run in fast mode (No waiting)
+- Do actual damage (?)
