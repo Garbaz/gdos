@@ -67,7 +67,7 @@ void interrupt_handler(int sig)
 	{
 		printf("Killing child processes...\n");
 		//Kill children
-		kill(0, SIGKILL);	
+		kill(0, SIGKILL);
 		free(pids);
 		wait(NULL);
 		printf("...done!\n");
