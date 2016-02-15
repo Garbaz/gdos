@@ -240,9 +240,9 @@ void print_help(char* argv0)
 {
 	printf("\nSynopsis:\n");
 	printf("%s [-p PORT] [-t THR] [-h] TARGET\n\n", argv0);
-	printf("TARGET is the IP/URL to target of the DOS attack,\n");
-	printf("PORT which port to send to and\n");
-	printf("THR how many threads to run simultaneously\n\n");
+	printf("TARGET = is the IP/URL to target of the DOS attack,\n");
+	printf("PORT   = which port to send to and\n");
+	printf("THR    = how many threads to run simultaneously\n\n");
 	printf("+-----------------------+-------------------------+\n");
 	printf("| PARAMETER             | FUNCTION                |\n");
 	printf("+-----------------------+-------------------------+\n");
